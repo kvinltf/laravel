@@ -18,4 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/server', function () {
+    return view('welcome');
+});
 Route::post('/server', ProvisionServer::class);
